@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>MundoPuzzle</title>
+    <meta
+      name="description"
+      content="Divertité con los mejores rompecabezas de las mejores marcas, con la mayor variedad en modelos y cantidad de piezas"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- Menu -->
+        <h1><a class="header__h1" href="../index.html">MundoPuzzle</a></h1>
+        <nav>
+          <ul class="menu__list">
+            <li><a class="menu__list--button" href="#inicio">Inicio</a></li>
+            <li><a class="menu__list--button" href="#nosotros">Nosotros</a></li>
+            <li><a class="menu__list--button" href="./pages/galeria.html">Productos</a></li>
+            <li><a class="menu__list--button" href="#contacto">Contacto</a></li>
+            <li><a class="menu__list--carrito" href="./pages/carrito.html">
+              <i class="fa-solid fa-cart-shopping"><span class="carrito__numero" id="carrito__numero--index"> 0</span></i></a></li>
+          </ul>
+        </nav>  
+      </header>      
+      <!-- Contenido -->
+      <main>
+        <div class="container__main">
+          <section>
+            <!-- Incio -->
+            <div class="container__main--inicio parallax" id="inicio">
+              <div class="titulos">
+                <h2 class="inicio__h2">Marcas Nacionales e Internacionales</h2>
+              </div>
+            </div>
+            <div class="contenido inicio">
+              <img class="inicio__img" src="./images/imgInicio2.jpg" alt="rompecabezas madera planisferio">
+              <div class="inicio__cont">
+                <p>Te ofrecemos las clásicas marcas internacionales sin que falte la variedad y las creaciones de nuestro país.</p>
+                <h3 class="inicio__h3">Variedad en tamaños</h3>
+                <p>Encontrá nuevos desafíos en la variedad de piezas, 1000, 2000, 3000 y mucho más.</p>
+                <h4 class="inicio__h4">Elegí y compra</h4>
+                <p>¡Así de fácil! Elegí los que más te guste, seguí las indicaciones y prepárate para horas de diversión.</p>                
+              </div>
+            </div>
+            <!-- Nosotros -->
+            <div class="container__main--nosotros parallax" id="nosotros">
+              <div class="titulos">
+                <h2 class="nosotros__h2" id="nosotros">
+                  Puzzlemaniacos
+                </h2>
+              </div>
+            </div>
+            <div class="contenido">
+              <p>Comenzamos como una afición, como momentos de distracción y pasatiempos, y termino siendo una pasión. Una pasión que hoy queremos hacerte llegar de las forma más fácil y rápida. Te ofrecemos las mejores marcas, cientos de modelos y miles y miles de piezas para que no te rompas la cabeza buscando. ¡Dejamos todo listo para que solo te diviertas!</p>
+            </div>
+            <!-- Productos -->
+            <div class="container__main--productos parallax" id="productos">
+              <div class="titulos">
+                <h2 class="productos__h2" id="productos">Nuestros productos</h2>
+              </div>
+            </div>
+            <div class="contenido productos">
+              <div>
+                <img src="./images/favicon.png" alt="">                   
+              </div>
+              <div>
+                <h2><a class="productos__h2--a" href="./pages/galeria.html">Ravensburger</a></h2>
+                <h2><a class="productos__h2--a" href="./pages/galeria.html">Educa</a></h2>
+                <h2><a class="productos__h2--a" href="./pages/galeria.html">Clementoni</a></h2>
+                <h2><a class="productos__h2--a" href="./pages/galeria.html">Puzzles de Madera</a></h2>
+                <h2><a class="productos__h2--a" href="./pages/galeria.html">y mucho más...</a></h2>
+              </div>
+            </div>
+            <!-- Contactanos -->
+            <div class="container__main--contactanos parallax" id="contacto">
+              <div class="titulos">
+                <h2 class="contacto__h2">Contanos en que podemos ayudarte</h2>
+              </div>     
+            </div>
+            <!-- Formulario -->
+            <div class="contenido contacto">
+              <article>
+                <form class="contacto__form" action="">
+                  <fieldset>
+                    <legend>Contactanos</legend>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+                    <br />
+                    <label for="apellido">Apellido: </label>
+                    <input
+                      type="text"
+                      name="apellido"
+                      id="apellido"
+                      placeholder="Apellido"
+                    />  
+                    <br />
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <br />
+                    <br />
+                    <div>
+                      <label for="mensaje">Dejanos un mensaje:</label>
+                      <br />
+                      <textarea
+                        name="mensaje"
+                        id="mensaje"
+                        cols="30"
+                        rows="10"
+                      ></textarea>
+                      <br />
+                      <div>
+                        Recibir email con novedades <input
+                          type="checkbox"
+                          name="acepta"
+                          id="acepta"
+                          value="acepta"
+                        />
+                        <br />
+                      </div>
+                      <input class="contacto__input--button" type="reset" value="Limpiar" />
+                      <input class="contacto__input--button" id="alertFormulario" type="button" value="Enviar" />
+                    </div>    
+                  </fieldset>  
+                </form>
+              </article>
+              <!--Información Contacto-->
+              <aside>
+                <div class="contacto__contacto">
+                  <h4 class="contacto__h2">Vení a ver nuestros Puzzles</h4>
+                  <i class="fa-solid fa-shop"></i> Avenida Siempreviva 742, Springfield
+                  <br>
+                  <i class="fa-solid fa-phone"></i> 15-123-4567
+                  <br>
+                  <i class="fa-solid fa-envelope"></i> mundopuzzle@puzzlemaniacos.com
+                </div>
+                <br>
+                <div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2357.1938308018352!2d-67.70416392657005!3d-53.78603763450565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4b165cfcfe29bb%3A0xad533e93957c6468!2sAv.%20Manuel%20Belgrano%20702%2C%20R%C3%ADo%20Grande%2C%20Tierra%20del%20Fuego!5e0!3m2!1ses-419!2sar!4v1664201196774!5m2!1ses-419!2sar"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </aside>
+            </div>     
+          </section>    
+        </div>
+      </main>
+      <!-- footer -->
+      <footer>
+        <div>
+          <!-- Iconos Contacto -->
+            <div class="footer__div parallax">
+              <div class="titulos">
+                <h6 class="footer__h6">Seguinos en nuestras Redes Sociales</h6>
+                <a class="footer__link" href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a class="footer__link" href="#" target="_blank"></i><i class="fa-brands fa-facebook"></i></a>
+                <a class="footer__link" href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <p class="footer__p">&copy;2023 MundoPuzzle by Nawsper</p>
+          </div>  
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/presentacion.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>MundoPuzzle Galeria</title>
+    <meta
+      name="description"
+      content="Encontrá todas las marcas y modelos del mercado en un solo lugar"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS -->
+    <link rel="stylesheet" href="../css/galeria.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header>
+          <h1><a class="header__h1" href="../index.html">MundoPuzzle</a></h1>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="todos" class="menu__button active">
+                <i class="bi bi-puzzle-fill"></i> Todos los productos
+              </button>
+            </li>
+            <li>
+              <button id="Ravensburger" class="menu__button">
+                <i class="bi bi-puzzle-fill"></i> Ravensburger
+              </button>
+            </li>
+            <li>
+              <button id="Educa" class="menu__button">
+                <i class="bi bi-puzzle-fill"></i> Educa
+              </button>
+            </li>
+            <li>
+              <button id="Clementoni" class="menu__button">
+                <i class="bi bi-puzzle-fill"></i> Clementoni
+              </button>
+            </li>
+            <li>
+              <button id="Wooden" class="menu__button">
+                <i class="bi bi-puzzle-fill"></i> Puzzles de Madera
+              </button>
+            </li>
+            <li>
+              <a class="menu__button menu__carrito" href="./carrito.html">
+                <i class="bi bi-puzzle"></i>
+                <i class="bi bi-cart-fill"
+                  ><span id="carrito__numero" class="carrito__numero">
+                    0</span
+                  ></i
+                ></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- footer -->
+        <footer>
+          <div>
+            <!-- Iconos Contacto -->
+            <div class="footer__div">
+              <h6 class="footer__h6">Seguinos en nuestras Redes Sociales</h6>
+              <a class="footer__link" href="#" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a class="footer__link" href="#" target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a class="footer__link" href="#" target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </div>
+            <p class="footer__p">&copy;2023 MundoPuzzle by Nawsper</p>
+          </div>
+        </footer>
+      </aside>
+      <main>
+        <h2 id="main__titulo" class="main__titulo">Todos los productos</h2>
+        <div id="main__contenedor" class="main__contenedor"></div>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
